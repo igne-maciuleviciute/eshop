@@ -2,13 +2,10 @@ import React, { Component } from 'react';
 import {
     Layout
 } from 'antd';
-import ReactRouter from 'react-router-dom'
 
 import './HomePage.module.less';
 
 const { Content } = Layout;
-
-
 class Homepage extends Component {
     render() {
         return (

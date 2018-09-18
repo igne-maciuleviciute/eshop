@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Layout } from 'antd';
-import { Table, Badge, Menu, Dropdown, Icon } from 'antd';
+import { Table } from 'antd';
 
 import './OrdersPage.module.less';
 

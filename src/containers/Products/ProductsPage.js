@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import {
     Layout,
-    Menu,
-    Icon,
     Card,
     Pagination,
     notification,
@@ -12,7 +10,6 @@ import FiltersHeader from '../../components/FiltersHeader/FiltersHeader';
 import './ProductsPage.module.less';
 import ProductCard from '../../components/ProductCard/ProductCard';
 
-const { Meta } = Card;
 const { Content } = Layout;
 class ProductsPage extends Component {
     constructor(props) {

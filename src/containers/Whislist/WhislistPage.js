@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import {
     Layout,
-    Menu,
-    Breadcrumb,
-    Icon,
-    Card,
-    Avatar,
-    notification
+    Icon
 } from 'antd';
 
 import './WhislistPage.module.less';
@@ -14,8 +9,6 @@ import '../Home/HomePage';
 import ProductCard from '../../components/ProductCard/ProductCard';
 
 const { Content } = Layout;
-const { Meta } = Card;
-
 class WishlistPage extends Component {
     constructor(props) {
         super(props);
@@ -53,10 +46,6 @@ class WishlistPage extends Component {
             <Layout>
                 <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: '83vh' }}>
                     {this.state.products.length ? cardList : warningMsg}
-                    {/* <Icon
-                        className="warningMsgIcon"
-                        type="heart"
-                        theme="outlined" /> */}
                 </Content>
             </Layout>
         )
